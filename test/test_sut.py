@@ -1,8 +1,8 @@
-import src
 
 import mock
 import pytest
 
+import src
     
 @mock.patch('src.sut.os')
 def test_filesystem(mock_os):
@@ -17,3 +17,4 @@ def test_rm(mock_pandas, mock_log):
     a = src.sut.dopandas()
     mock_log.warn.assert_called_with('test')
     assert a== 5 
+

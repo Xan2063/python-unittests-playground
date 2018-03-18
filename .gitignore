@@ -1,4 +1,4 @@
-
+\.cache/
 *.pyc
 \.pytest_cache/
 \.idea/

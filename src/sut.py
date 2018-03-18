@@ -3,6 +3,8 @@ import logging
 import numpy as np
 import pandas as pd
 
+
+
 def dofilesystem(filename):
     os.remove(filename)
 
@@ -13,4 +15,7 @@ def dopandas():
     b=df['a'].mean()
     logging.warn("test")
     return b
+
+
+    
     

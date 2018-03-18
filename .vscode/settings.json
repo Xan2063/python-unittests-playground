@@ -2,5 +2,11 @@
     "python.unitTest.pyTestArgs": [
         "test"
     ],
-    "python.unitTest.pyTestEnabled": true
+    "python.unitTest.pyTestEnabled": true,
+    "files.exclude": {
+        "**/__pycache__/": true,
+        "**/*.pyc": true,
+        ".cache/":true,
+        ".pytest_cache":true,
+    },
 }
